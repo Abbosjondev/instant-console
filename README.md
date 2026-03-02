@@ -1,8 +1,7 @@
 # instant-console
-=======
 <div align="center">
 
-<img src="https://glorious-scarlet-rze60rezmp.edgeone.app/Untitled%20design.png" alt="console.js banner" width="100%"/>
+<img src="https://glorious-scarlet-rze60rezmp.edgeone.app/Untitled%20design.png" alt="console.js banner" width="60%"/>
 
 # 🖥️ instant-console
 
