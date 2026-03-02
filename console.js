@@ -834,7 +834,7 @@
         '<span class="dc-dot r" data-dot="close"    title="Close"></span>',
         '<span class="dc-dot y" data-dot="min"      title="Minimize"></span>',
         '<span class="dc-dot g" data-dot="snap"     title="Fullscreen"></span>',
-        '<span id="__dc-title">Dev&nbsp;<b>Console</b>&nbsp;<span style="font-size:10px;color:var(--dim)">V6</span></span>',
+        '<span id="__dc-title">Dev&nbsp;<b>Console</b>&nbsp;<span style="font-size:10px;color:var(--dim)">Beta</span></span>',
         '</div>',
         /* toolbar */
         '<div id="__dc-bar">',

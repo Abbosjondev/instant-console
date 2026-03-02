@@ -75,8 +75,8 @@ No build tools required. The entire library is a single vanilla JS file.
 
 ```bash
 # Clone your fork
-git clone https://github.com/Abbosjondev/console.js.git
-cd console.js
+git clone https://github.com/Abbosjondev/instant-console.git
+cd instant-console
 
 # Open the demo (no server needed)
 open demo.html          # macOS
@@ -232,4 +232,4 @@ style(ui): increase backdrop blur from 4px to 6px
 
 ## Questions?
 
-Open a [Discussion](https://github.com/Abbosjondev/console.js/discussions) — happy to help!
+Open a [Discussion](https://github.com/Abbosjondev/instant-console/discussions) — happy to help!

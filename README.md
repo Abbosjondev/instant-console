@@ -2,27 +2,27 @@
 =======
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Abbosjondev/console.js/main/assets/banner.png" alt="console.js banner" width="100%"/>
+<img src="https://glorious-scarlet-rze60rezmp.edgeone.app/Untitled%20design.png" alt="console.js banner" width="100%"/>
 
-# 🖥️ console.js
+# 🖥️ instant-console
 
 **A zero-dependency, drop-in in-page Developer Console that mimics Google Chrome DevTools.**
 
-[![Version](https://img.shields.io/badge/version-v6.0-4d90fe?style=flat-square&logo=javascript)](https://github.com/Abbosjondev/console.js/releases)
+[![Version](https://img.shields.io/badge/version-v6.0-4d90fe?style=flat-square&logo=javascript)](https://github.com/Abbosjondev/instant-console/releases)
 [![License](https://img.shields.io/badge/license-MIT-28c840?style=flat-square)](LICENSE)
-[![Size](https://img.shields.io/badge/size-~18KB-febc2e?style=flat-square)](console.js)
+[![Size](https://img.shields.io/badge/size-~18KB-febc2e?style=flat-square)](instant-console)
 [![Zero Deps](https://img.shields.io/badge/dependencies-zero-f48771?style=flat-square)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-89dceb?style=flat-square)](CONTRIBUTING.md)
 
-[**Live Demo**](https://Abbosjondev.github.io/console.js/) · [**Report Bug**](https://github.com/Abbosjondev/console.js/issues/new?template=bug_report.md) · [**Request Feature**](https://github.com/Abbosjondev/console.js/issues/new?template=feature_request.md)
+[**Live Demo**](https://Abbosjondev.github.io/instant-console/) · [**Report Bug**](https://github.com/Abbosjondev/instant-console/issues/new?template=bug_report.md) · [**Request Feature**](https://github.com/Abbosjondev/instant-console/issues/new?template=feature_request.md)
 
 </div>
 
 ---
 
-## 📖 What is console.js?
+## 📖 What is instant-console?
 
-`console.js` injects a **fully-featured, interactive Developer Console** directly into any web page — no browser extensions, no build tools, no dependencies. Just drop in a single `<script>` tag.
+`instant-console` injects a **fully-featured, interactive Developer Console** directly into any web page — no browser extensions, no build tools, no dependencies. Just drop in a single `<script>` tag.
 
 It is designed to feel exactly like the **Chrome DevTools Console panel**: dark theme, collapsible object trees, syntax-highlighted REPL input, filter buttons, search, `console.table`, and much more.
 
@@ -59,24 +59,15 @@ It is designed to feel exactly like the **Chrome DevTools Console panel**: dark 
 
 ## 🚀 Quick Start
 
-### Option 1 — Script tag (recommended)
+### CDN (jsDelivr)
 
 ```html
-<!-- Add before </body> -->
-<script src="console.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Abbosjondev/instant-console@v6/console.js"></script>
 ```
 
-That's it. The console opens automatically on page load.
+### Option 2 — Download
 
-### Option 2 — CDN (jsDelivr)
-
-```html
-<script src="https://cdn.jsdelivr.net/gh/Abbosjondev/console.js@v6/console.js"></script>
-```
-
-### Option 3 — Download
-
-Download [`console.js`](https://github.com/Abbosjondev/console.js/releases/latest/download/console.js) and place it alongside your HTML file.
+Download [`instant-console`](https://github.com/Abbosjondev/instant-console/releases/latest/download/instant-console) and place it alongside your HTML file.
 
 ---
 
@@ -229,34 +220,14 @@ x + 10              // prints: ← 52
 
 > `backdrop-filter` (blur effect) degrades gracefully in browsers that don't support it — the console still works, just without the blur.
 
----
-
-## 📁 Project Structure
-
-```
-console.js/
-├── console.js          # Main library (single file, zero deps)
-├── demo.html           # Interactive demo page
-├── README.md           # This file
-├── CHANGELOG.md        # Version history
-├── CONTRIBUTING.md     # How to contribute
-├── LICENSE             # MIT License
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    │   ├── bug_report.md
-    │   └── feature_request.md
-    └── PULL_REQUEST_TEMPLATE.md
-```
-
----
 
 ## 🏗️ Architecture
 
-`console.js` is a single IIFE (Immediately Invoked Function Expression) with **zero global scope pollution** (only sets `window.__dcV6` as a guard).
+`instant-console` is a single IIFE (Immediately Invoked Function Expression) with **zero global scope pollution** (only sets `window.__dcV6` as a guard).
 
 ```
 ┌─────────────────────────────────────────────────┐
-│                   console.js                     │
+│                  instant-console                │
 │                                                  │
 │  ┌──────────────┐   ┌──────────────────────────┐ │
 │  │  CSS Engine  │   │   Console Overrides       │ │
@@ -284,15 +255,15 @@ console.js/
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 ```bash
-git clone https://github.com/Abbosjondev/console.js.git
-cd console.js
+git clone https://github.com/Abbosjondev/instant-console.git
+cd instant-console
 
 open demo.html   # macOS
 xdg-open demo.html  # Linux
 start demo.html  # Windows
 ```
 
-No build step required. Edit `console.js` directly and refresh the demo.
+No build step required. Edit `instant-console` directly and refresh the demo.
 
 ---
 
