@@ -61,7 +61,7 @@ It is designed to feel exactly like the **Chrome DevTools Console panel**: dark 
 ### CDN (jsDelivr)
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/Abbosjondev/instant-console@v6/console.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Abbosjondev/instant-console/console.js"></script>
 ```
 
 ### Option 2 — Download
