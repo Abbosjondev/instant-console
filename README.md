@@ -7,7 +7,7 @@
 
 **A zero-dependency, drop-in in-page Developer Console that mimics Google Chrome DevTools.**
 
-[![Version](https://img.shields.io/badge/version-v6.0-4d90fe?style=flat-square&logo=javascript)](https://github.com/Abbosjondev/instant-console/releases)
+[![Version](https://img.shields.io/badge/version-0.beta-4d90fe?style=flat-square&logo=javascript)](https://github.com/Abbosjondev/instant-console/releases)
 [![License](https://img.shields.io/badge/license-MIT-28c840?style=flat-square)](LICENSE)
 [![Size](https://img.shields.io/badge/size-~18KB-febc2e?style=flat-square)](instant-console)
 [![Zero Deps](https://img.shields.io/badge/dependencies-zero-f48771?style=flat-square)](#)
@@ -225,28 +225,28 @@ x + 10              // prints: ← 52
 `instant-console` is a single IIFE (Immediately Invoked Function Expression) with **zero global scope pollution** (only sets `window.__dcV6` as a guard).
 
 ```
-┌─────────────────────────────────────────────────┐
-│                  instant-console                │
+┌──────────────────────────────────────────────────┐
+│                  instant-console                 │
 │                                                  │
 │  ┌──────────────┐   ┌──────────────────────────┐ │
-│  │  CSS Engine  │   │   Console Overrides       │ │
-│  │  (injected   │   │   log / warn / error /    │ │
-│  │   <style>)   │   │   info / table / clear    │ │
+│  │  CSS Engine  │   │   Console Overrides      │ │
+│  │  (injected   │   │   log / warn / error /   │ │
+│  │   <style>)   │   │   info / table / clear   │ │
 │  └──────────────┘   └──────────────────────────┘ │
 │                                                  │
 │  ┌──────────────┐   ┌──────────────────────────┐ │
-│  │ Value        │   │  Tree Builder             │ │
-│  │ Renderer     │   │  (lazy, circular-safe,    │ │
-│  │ (type-aware, │   │   infinite depth)         │ │
-│  │  HTML-safe)  │   │                           │ │
+│  │ Value        │   │  Tree Builder            │ │
+│  │ Renderer     │   │  (lazy, circular-safe,   │ │
+│  │ (type-aware, │   │   infinite depth)        │ │
+│  │  HTML-safe)  │   │                          │ │
 │  └──────────────┘   └──────────────────────────┘ │
 │                                                  │
 │  ┌──────────────┐   ┌──────────────────────────┐ │
-│  │  REPL        │   │  Filter / Search          │ │
-│  │  (highlight  │   │  (live, per-row)          │ │
-│  │   + history) │   │                           │ │
-│  └──────────────┘   └──────────────────────────┘ │
-└─────────────────────────────────────────────────┘
+│  │  REPL        │   │  Filter / Search         │ │
+│  │  (highlight  │   │  (live, per-row)         │ │
+│  │   + history) │   │                          │ │
+│  └──────────────┘   └────────────────── ───────┘ │
+└──────────────────────────────────────────────────┘
 ```
 
 ## 🤝 Contributing
@@ -283,4 +283,4 @@ If this project helped you, please consider starring it ⭐
 <div align="center">
   Made with ❤️ — inspired by Chrome DevTools
 </div>
->>>>>>> 68e4b88 (first commit)
+
