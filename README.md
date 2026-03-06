@@ -1,7 +1,7 @@
 # instant-console
 <div align="center">
 
-<img src="https://glorious-scarlet-rze60rezmp.edgeone.app/Untitled%20design.png" alt="console.js banner" width="60%"/>
+<img src="https://postimg.cc/8sWYSyXL" alt="console.js banner" width="60%"/>
 
 # 🖥️ instant-console
 
@@ -283,4 +283,5 @@ If this project helped you, please consider starring it ⭐
 <div align="center">
   Made with ❤️ — inspired by Chrome DevTools
 </div>
+
 
