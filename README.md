@@ -1,7 +1,7 @@
 # instant-console
 <div align="center">
 
-<img src="https://postimg.cc/8sWYSyXL" alt="console.js banner" width="60%"/>
+<img src="https://i.postimg.cc/8kngL9hX/Untitled-design.png" alt="console.js banner" width="60%"/>
 
 # 🖥️ instant-console
 
@@ -283,5 +283,6 @@ If this project helped you, please consider starring it ⭐
 <div align="center">
   Made with ❤️ — inspired by Chrome DevTools
 </div>
+
 
 
